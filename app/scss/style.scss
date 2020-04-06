@@ -37,6 +37,11 @@
   padding: 14px 19px 11px 18px;
   font-size: 14px;
   border-radius: 21px;
+  transition: all 0.5s;
+}
+
+.header__btn-text:hover {
+  background-color: #3c8ee8;
 }
 
 .header__icons {
@@ -56,7 +61,41 @@
 }
 
 .nav {
-
+  display: flex;
+  align-items: center;
+    form {
+      margin-left: auto;
+      position: relative;
+    }
+    input {
+      height: 46px;
+      width: 360px;
+      padding-left: 24px;
+      border-radius: 1px;
+      color: #898f96;
+      font-size: 15px;
+      border: 1px solid #d9dfe5;
+      border-radius: 28px;
+      position: relative;
+      outline: none;
+    }
+    button {
+      position: absolute;
+      background-color: transparent;
+      border: none;
+      border-radius: 28px;
+      background-color: #0674ec;
+      height: 46px;
+      width: 70px;
+      cursor: pointer;
+      top: 0;
+      right: 0;
+      outline: none;
+      transition: all 0.5s;
+    }
+    button:hover {
+      background-color: #3c8ee8;
+    }
 }
 
 .menu__list {
